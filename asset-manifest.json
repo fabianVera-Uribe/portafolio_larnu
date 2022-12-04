@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fabianVera-Uribe/portafolio_larnu/static/css/main.bb92795c.css",
+    "main.js": "/fabianVera-Uribe/portafolio_larnu/static/js/main.10655b77.js",
+    "static/media/intro-bg.jpg": "/fabianVera-Uribe/portafolio_larnu/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "index.html": "/fabianVera-Uribe/portafolio_larnu/index.html",
+    "main.bb92795c.css.map": "/fabianVera-Uribe/portafolio_larnu/static/css/main.bb92795c.css.map",
+    "main.10655b77.js.map": "/fabianVera-Uribe/portafolio_larnu/static/js/main.10655b77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb92795c.css",
+    "static/js/main.10655b77.js"
+  ]
+}
