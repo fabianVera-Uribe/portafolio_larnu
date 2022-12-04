@@ -10,8 +10,8 @@ function Login() {
     discordId: "438501128498577423",
   });
 
-  const [token, setToken] = useState(null);
   const [logged, setLogged] = useState(false);
+
 
   const handleChange = (e) => {
     console.log(e);
@@ -31,7 +31,6 @@ function Login() {
         return res.data.token;
       })
       .then((token) => {
-        setToken(token);
         setLogged(true);
       });
   };
@@ -71,34 +70,7 @@ function Login() {
     );
   };
 
-  // const Welcome = () => {
-  //   const [checked, setChecked] = useState(false);
-  //   const [data, setData] = useState(null);
 
-  //   async function checkToken() {
-  //     axios
-  //       .get(`${baseUrl}/auth/check`, {
-  //         headers: {
-  //           Authorization: `Bearer ${token}`,
-  //         },
-  //       })
-  //       .then((res) => {
-  //         setData(res.data);
-  //         setChecked(true);
-  //         console.log(res);
-  //       });
-  //   }
-
-  //   useEffect(() => {
-  //     checkToken();
-  //   }, []);
-
-  //   return (
-  //     <>
-  //       {checked ? <div>Welcome {data.username}</div> : <div>Loading...</div>}
-  //     </>
-  //   );
-  // };
 
   return <div className="App">{logged ? <Inicio /> : <Form />}</div>;
 }
