@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  padding: 6rem;
+  background-color: rgba(19, 19, 19, 0.8);
+
+  max-width: 114rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.izquierda {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+}
+.ubicacion {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.ubicacion p {
+  line-height: 20px;
+}
+.redes {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+@media (max-width: 640px) {
+  .izquierda {
+    align-items: center;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}

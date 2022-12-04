@@ -1,0 +1,18 @@
+label {
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 6.4rem 1.6rem;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+form input, form textarea {
+  margin-bottom: 1.6rem;
+  padding: 1rem 1.8rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #f4f4f4;
+}
